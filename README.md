@@ -1,6 +1,6 @@
 # Unity_ScreenUtil
 
-Convert between screen-coord and pixel-coord, and, any others.
+Convert between viwport-coord and screen-coord, and, any others.
 
 ## Import to Your Project
 
@@ -12,9 +12,9 @@ You can import this asset from UnityPackage.
 ## How to use
 
 ``` csharp
-ScreenUtil.ScreenToPixel(Vertex2 coord);
-ScreenUtil.ScreenToPixel(float coordX, float coordY);
-ScreenUtil.PixelToScreen(Vertex2Int coord);
-ScreenUtil.PixelToScreen(int coordX, int coordY);
+ScreenUtil.ViewportToScreen(Vector2 coord)
+ScreenUtil.ViewportToScreen(float coordX, float coordY)
+ScreenUtil.ScreenToViewport(Vector2Int coord)
+ScreenUtil.ScreenToViewport(int coordX, int coordY)
 ScreenUtil.AspectRatio;
 ```
