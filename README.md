@@ -1,13 +1,14 @@
 # Unity_ScreenUtil
 
-Convert between viwport-coord and screen-coord, and, any others.
+Convert between viewport-coord and screen-coord, and, any others.
 
-## Import to Your Project
+## Importing
 
-You can import this asset from UnityPackage.
+You can use Package Manager or import it directly.
 
-- [ScreenUtil.unitypackage](https://github.com/XJINE/Unity_ScreenUtil/blob/master/ScreenUtil.unitypackage)
-
+```
+https://github.com/XJINE/Unity_ScreenUtil.git?path=Assets/Packages/ScreenUtil
+```
 
 ## How to use
 
